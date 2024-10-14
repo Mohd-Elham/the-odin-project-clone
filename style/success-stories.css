@@ -1,0 +1,86 @@
+.success-stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+    transform: scale(0.9); 
+    transform-origin: center;
+}
+
+.stories {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.story-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px; 
+    margin-bottom: 20px; 
+
+    min-width: 400px;
+}
+
+.success-stories img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%; 
+    transform: translateY(-25px);
+}
+
+.description p {
+    max-width: 1000px;
+    padding-top: 10px;
+    text-align: start;
+    padding: 0px;
+    margin: 5px;
+    padding-left: 10px;
+    color: #4b5563;
+    font-size: 18px;
+}
+.description a{
+    /* text-decoration: none; */
+    color: #000;
+    padding-left: 15px;
+    transform: translate(-100px, 0);
+    font-size: 16px;
+}
+.success-stories a{
+    padding: 30px;
+    color: #4b5563;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.support h2{
+    font-weight: 600;
+    font: 25px;
+}
+
+.support p{
+    padding: 0;
+    max-width: 512px;
+    color: #4b5563;
+    font-size: 14px;
+    max-width: 450px;
+    text-align: center;
+}
+.last-buttons{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+}
+.last-buttons .white-button{
+    width: 130px;
+    height: 40px;
+}

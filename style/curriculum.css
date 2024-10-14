@@ -1,0 +1,158 @@
+@media only screen and (max-width: 640px) {
+    h1 {
+        max-width: 400px;
+        font-size: 36px;
+        font-weight: 500;
+        text-align: center;
+        transform: scaleX(0.95);
+        transform: scaleY(1.05);
+    }
+    
+    h1 .highlight1 {
+    
+        color: #374151;
+        /* Change the color */
+    }
+    
+    h1 .highlight2 {
+    
+        color: #a9792b;
+        /* Change the color */
+    
+    }
+    p{
+        max-width: 350px;
+    }
+    
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1325px) {
+    h1 {
+        max-width: 900px;
+        font-size: 56px;
+        font-weight: 500;
+        text-align: center;
+        transform: scaleX(0.95);
+        transform: scaleY(1.05);
+    }
+    
+    h1 .highlight1 {
+    
+        color: #374151;
+        /* Change the color */
+    }
+    
+    h1 .highlight2 {
+    
+        color: #a9792b;
+        /* Change the color */
+    
+    }
+  p{
+    max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1326px) {
+    h1 {
+        max-width: 900px;
+        font-size: 56px;
+        font-weight: 500;
+        text-align: center;
+        transform: scaleX(0.95);
+        transform: scaleY(1.05);
+    }
+    
+    h1 .highlight1 {
+    
+        color: #374151;
+        /* Change the color */
+    }
+    
+    h1 .highlight2 {
+    
+        color: #a9792b;
+        /* Change the color */
+    
+    }
+    p{
+        max-width: 500px;
+    }
+    .working p{
+        padding-top: 30px;
+        max-width: 800px;
+    }
+
+    .working{
+        margin: 0px 320px;
+    }
+    .courses p {
+        max-width: 300px;
+    }
+
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.curriculum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+
+}
+
+
+.curriculum p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    color: #7088a5;
+}
+
+.curriculum p {
+    padding-bottom: 20px;
+}
+
+
+
+.odin-bg {
+    background-image: url(images/odin\ bg.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 710px;
+    margin-top: 20px;
+}
+
+.working {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.working h2 {
+    padding-top: 50px;
+}
+
+.courses{
+    display: flex;
+    padding-top: 30px;
+    gap: 70px;
+}
+
+.course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.courses img{
+    margin-bottom: 30px;
+}
